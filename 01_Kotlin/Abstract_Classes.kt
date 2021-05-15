@@ -15,7 +15,7 @@ abstract class Person1 {
     abstract fun eat() // abstract properties are "open" by default and they don't have body
     open fun getHeight() {} //A "open function ready to be Overridden"
     fun goToSchool() {} // A Normal Function : public and final by default
-}
+}	
 
 class Indian1() : Person1(){
     override var name: String = "dummy_indian_name"
