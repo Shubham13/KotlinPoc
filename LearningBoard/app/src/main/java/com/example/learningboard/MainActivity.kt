@@ -67,5 +67,10 @@ button2.setOnClickListener {
     startActivity(intent)
 }
 
+        btnlifecycle.setOnClickListener {
+            val intent = Intent(this,LifeCycleActivity1::class.java)
+            startActivity(intent)
+        }
+
     }
 }
