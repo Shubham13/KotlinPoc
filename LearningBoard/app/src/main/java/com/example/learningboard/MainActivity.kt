@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
 
         btnRecyclerViewDemo.setOnClickListener {
-            val intent = Intent(this,HobbiesActivity::class.java)
+            val intent = Intent(this,ContextMenu::class.java)
             startActivity(intent)
         }
 

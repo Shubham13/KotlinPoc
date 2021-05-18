@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningBoard">
-        <activity android:name=".LifeCycleActivity1"></activity>
+        <activity
+            android:name=".ContextMenu"
+            android:label="@string/title_activity_context_menu"
+            android:theme="@style/Theme.LearningBoard.NoActionBar"></activity>
+        <activity android:name=".Analog_Digital_Clock" />
+        <activity android:name=".LifeCycleActivity1" />
         <activity android:name=".SearchView" />
         <activity android:name=".View_Stub" />
         <activity android:name=".ImageSwitcher" />
