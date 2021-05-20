@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horizontal_ScrollView">
+
+    <HorizontalScrollView
+        android:id="@+id/scrollview1"
+        android:maxWidth="0px"
+        android:maxHeight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:text="@string/scroll_text"
+            android:maxLines="10"
+            android:id="@+id/txthorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </HorizontalScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
