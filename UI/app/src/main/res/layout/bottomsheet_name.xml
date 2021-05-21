@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#04111D"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/rellayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/newsreader"
+            android:text="Name"
+            android:textSize="22sp" />
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/btnclose"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:gravity="right"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:backgroundTint="#ACC4D5"-->
+<!--            app:borderWidth="0dp"-->
+<!--            android:src = "@drawable/ic_close"-->
+<!--            app:fabSize="mini"-->
+<!--            android:tint="@color/white"-->
+<!--            android:clickable="true"-->
+<!--            android:scaleType="centerCrop" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            app:boxCornerRadiusBottomEnd="8dp"-->
+<!--            app:boxCornerRadiusTopEnd="8dp"-->
+<!--            app:boxCornerRadiusBottomStart="8dp"-->
+<!--            app:boxCornerRadiusTopStart="8dp"-->
+<!--            app:boxStrokeColor="#ACC4D5"-->
+<!--            android:textColorHint="#ACC4D5"-->
+<!--            android:id="@+id/name_text_input"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:hint="First Name"-->
+<!--            app:hintTextColor="#ACC4D5"-->
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+
+<!--                android:outlineAmbientShadowColor="#ACC4D5"-->
+<!--                android:id="@+id/name_edit_text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColorHint="#ACC4D5"-->
+<!--                android:textSize="16sp"-->
+<!--                app:hintTextColor="#ACC4D5"-->
+<!--                android:fontFamily="@font/newsreader"-->
+<!--                 />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            app:boxStrokeColor="#ACC4D5"-->
+<!--            android:textColorHint="#ACC4D5"-->
+<!--            android:id="@+id/name_text_input1"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:hint="Middle Name"-->
+<!--            app:hintTextColor="#ACC4D5"-->
+<!--            android:fontFamily="@font/newsreader"-->
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                app:boxStrokeColor="#ACC4D5"-->
+<!--                android:id="@+id/name_edit_text1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColorHint="#ACC4D5"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"-->
+<!--                 />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            app:boxStrokeColor="#ACC4D5"-->
+<!--            android:textColorHint="#ACC4D5"-->
+<!--            android:id="@+id/name_text_input2"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:hint="Last Name"-->
+<!--            app:hintTextColor="#ACC4D5"-->
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                app:boxStrokeColor="#ACC4D5"-->
+<!--                android:id="@+id/name_edit_text2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColorHint="#ACC4D5"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"-->
+<!--                android:fontFamily="@font/newsreader"-->
+
+<!--                />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            app:boxStrokeColor="#ACC4D5"-->
+<!--            android:textColorHint="#ACC4D5"-->
+<!--            android:id="@+id/name_text_input3"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Preferred Name"-->
+<!--            app:hintTextColor="#ACC4D5"-->
+
+<!--            >-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+
+<!--                android:shadowColor="#ACC4D5"-->
+<!--                style="@style/button_border"-->
+<!--                android:id="@+id/name_edit_text3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColorHint="#1C2831"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"-->
+<!--                android:fontFamily="@font/newsreader"-->
+
+<!--                />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:textAllCaps="false"
+            android:backgroundTint="#201F33"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Update"
+            android:id="@+id/btnUpdate"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/qfm"
+            style="?android:attr/borderlessButtonStyle"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
