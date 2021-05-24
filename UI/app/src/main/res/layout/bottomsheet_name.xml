@@ -12,6 +12,7 @@
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
 
+
     <ImageView
         android:layout_width="50dp"
         android:layout_height="wrap_content"
@@ -66,6 +67,9 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
@@ -94,13 +98,16 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopStart="8dp"
             app:boxStrokeColor="#ACC4D5"
             android:textColorHint="#ACC4D5"
-            android:id="@+id/name_text_input1"
+            android:id="@+id/middle_name_input"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,7 +120,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 app:boxStrokeColor="#ACC4D5"
-                android:id="@+id/name_edit_text1"
+                android:id="@+id/middle_name_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="#ACC4D5"
@@ -122,13 +129,16 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopStart="8dp"
             app:boxStrokeColor="#ACC4D5"
             android:textColorHint="#ACC4D5"
-            android:id="@+id/name_text_input2"
+            android:id="@+id/last_name_input"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,7 +150,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 app:boxStrokeColor="#ACC4D5"
-                android:id="@+id/name_edit_text2"
+                android:id="@+id/last_name_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="#ACC4D5"
@@ -150,13 +160,16 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            app:errorTextColor="@android:color/holo_red_dark"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
             app:boxCornerRadiusBottomEnd="8dp"
             app:boxCornerRadiusTopEnd="8dp"
             app:boxCornerRadiusBottomStart="8dp"
             app:boxCornerRadiusTopStart="8dp"
             app:boxStrokeColor="#ACC4D5"
             android:textColorHint="#ACC4D5"
-            android:id="@+id/name_text_input3"
+            android:id="@+id/preferred_name_input"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,7 +181,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:shadowColor="#ACC4D5"
                 style="@style/button_border"
-                android:id="@+id/name_edit_text3"
+                android:id="@+id/preferred_name_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="#1C2831"
